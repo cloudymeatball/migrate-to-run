@@ -3,11 +3,7 @@ export const load = async({params})=>{
 		case 'A':
 			return { type: 'A' } as const
 		case 'B':
+    default:
 			return { type: 'B' } as const
-      /*
-		case 'C':
-		default:
-			return {type: undefined, index: 2} as const
-      */
 	}
 }

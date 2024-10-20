@@ -10,7 +10,7 @@
 	$: type = data.type
 
 	let mood
-	$: mood = type ? emoji[type] : ''
+	$: mood = emoji[type]
 	
 </script>
 
