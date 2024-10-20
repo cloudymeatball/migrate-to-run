@@ -9,9 +9,9 @@
 	let type
 	$: type = data.type
 
-	let index
-	$: index = type ? emoji[type] : ''
+	let mood
+	$: mood = type ? emoji[type] : ''
 	
 </script>
 
-<div>Type: {type} Index: {index}</div>
+<div>Type: {type} Mood: {mood}</div>
